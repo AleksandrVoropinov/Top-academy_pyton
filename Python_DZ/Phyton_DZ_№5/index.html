@@ -1,0 +1,81 @@
+<!-- Единственное не работает кнопка отрправки и очистки не смог понять причину.
+ В конце три варианта попробовал не работает-->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация для онлайн игры</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <from method="get">
+
+            <div class="from_iteam">
+                <label class="from_label" for="name-input">Заполните форму:</label>
+            </div>
+            <div class="from_iteam">
+                <input class="from_input" required="true" type="text" name="name" id="name-input" placeholder="Введите никнейм:">
+            </div>
+            <div class="from_iteam">
+                <input class="from_input" required="true" type="email" name="email" placeholder="Введите Email:">
+            </div>
+            <div class="from_iteam">
+                <label for="date">Дата рождения:</label>
+                <input class="from_input" required="true"  min="1920-01-01" max="2023-07-14" type="date" id="date">
+            </div>
+            <div class="from_iteam">
+                <p>Укажите ваш пол:<p>
+                <label for="man">Мужской</label>
+                <input class="from_input" required="true" type="radio" name="gender" id="man" value="man">
+                <label for="woman">Женский</label>
+                <input class="from_input" required="true" type="radio" name="gender" id="woman" value="woman">
+            </div>
+            <div class="from_iteam">
+                <input type="text" class="from_input" list="from_country" required="true" placeholder="Укажите страну">
+                    <datalist id="from_country">
+                    <option value="Россия"></option>
+                    <option value="Китай"></option>
+                    <option value="Шотландия"></option>
+                    <option value="Венгрия"></option>
+                    <option value="Япония"></option>
+                    <option value="Южная Корея"></option>
+                    <option value="Португалия"></option>
+                    </datalist>
+            </div>
+            <div class="from_iteam">
+                <input type="text" class="from_input" list="character_list" required="true" placeholder="Выберите тип персонажа:">
+                <datalist id="character_list">
+                    <option>Эльф</option>
+                    <option>Гном</option>
+                    <option>Орк</option>
+                    <option>Черный маг</option>
+                    <option>Белый рыцарь</option>
+                </datalist>
+            </div>
+            <div class="from_iteam">
+                <label for="from_input">Укажите свой игровой опыт:</label>
+                <input class="from_input" min="0" max="60" type="number" name="age">
+            </div>
+            <!-- <div class="from_iteam">
+                <input type="submit" value="Отправить">
+                <input type="reset" value="Сброс">
+            </div> -->
+            <div class="from_iteam">
+                <button type="submit">Отправить</button>
+                <button type="reset">Очистить</button>
+            </div>
+            <!-- <div class="from_iteam">
+                <input type="reset" value="сброс">
+	            <input type="submit" value="отправка">
+            </div>   -->
+
+        </from>
+        
+    </div>
+    
+</body>
+</html>

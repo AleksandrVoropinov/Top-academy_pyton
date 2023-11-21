@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form method="get">
+            <div class="form_name-1">
+                <label class="form_label">CREDIT CARD DETAILS</label>
+            </div>
+            <div class="form_name">
+                <label class="form_label-numb" for="numb-input">Card Number</label>
+                <input class="form_input" required="true" type="text" name="numb" id="numb-input" placeholder="1234 5678 9012 3456">
+            </div>
+            <div class="form_name">
+                <label class="form_label-numb" for="numb-input">Name On Card</label>
+                <input class="form_input" required="true" type="text" name="numb" id="numb-input" placeholder="Name Surname">
+            </div>
+            <div class="form_name-2">
+                <label for="form_input">Expiry Date</label>
+                <input class="form_input" required="true"  min="1" max="12" type="number" placeholder="02">
+                <input class="form_input" required="true"  min="2020" max="2030" type="number" placeholder="2017">
+                <label for="form_input">CVV/CVN</label>
+                <input class="form_input" required="true" min="100" max="999" type="number" placeholder="***">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+       <!--  Форма для заполнения -->
+        <form method="get">
+            <!-- input type="text" Ввод в форму и тип формы--> 
+            <!-- value="Send" что будет написановнутри формы, name ключ формы-->
+            <!-- placeholder - подсказка, исчезает при вводе текста -->
+            <!-- required="true" для обязательного заполнения формы -->
+            <!-- <label for="name-input">Имя:</label> для подсказки нужной нам строки -->
+            <div class="from_iteam">
+                <label class="from_label" for="name-input">Имя:</label>
+                <input class="from_input" type="text" name="name" id="name-input">
+            </div>
+            <div class="from_iteam">
+                <input class="from_input" required="true" type="email" name="email" placeholder="Введите Email:">
+            </div>
+            <div class="from_iteam">
+                <input class="from_input" required="true" type="password" name="password" placeholder="Введите пароль">
+            </div>
+            <div class="from_iteam">
+                <input class="from_input" required="true" min="18" max="100" type="number" name="age" placeholder="Возраст:">
+            </div>
+            <div class="from_iteam">
+                <p>Ваш пол:<p>
+                <label for="man">Мужской</label>
+                <input class="from_input" required="true" type="radio" name="gender" id="man" value="man">
+                <label for="woman">Женский</label>
+                <input class="from_input" required="true" type="radio" name="gender" id="woman" value="woman">
+            </div>
+            <div class="from_iteam">
+                <label for="date">Дата рождения:</label>
+                <input class="from_input"  min="2023-07-11" max="2023-07-20" type="date" id="date">
+            </div>
+            <div class="from_iteam">
+                <label for="contry">Выбирете страну:</label>
+                <select id="contry">
+                    <option>Россия</option>
+                    <option selected>Япония</option>
+                    <option>Китай</option>
+                    <option>Франция</option>
+                </select>
+            </div>
+            <div class="from_iteam">
+                <input class="from_input" type="tel" name="tel" placeholder="Телефон:">
+            </div>
+            <div class="from_iteam">
+                <input class="from_input" type="file" name="file">
+            </div>
+            <div class="from_iteam">
+                <input class="from_input" type="time" name="time">
+            </div>
+            <div class="from_iteam">
+                <legend>Комментарии:</legend>
+                <textarea cols="30" rows="10"></textarea>
+            </div>
+            <div class="from_iteam">
+                <input type="text" list="value_list" placeholder="Город:">
+                <datalist id="value_list">
+                    <option>Екатеринбург</option>
+                    <option>Челябинск</option>
+                    <option>Магнитогорск</option>
+                </datalist>
+            </div>
+            <div class="from_iteam">
+                <input required="true" id="confirm" class="from_input" type="checkbox" name="confirm">
+                <label class="from_label" for="confirm">Я согласен...</label>
+            </div>
+            <div class="from_iteam">
+                <input type="submit" value="Send">
+                <input type="reset" value="Clear">
+            </div>
+
+            <a href="tel:79999999999">79999999999</a>
+            <a href="mailto:test@mail.ru">test@mail.ru</a>
+
+            <div class="from_iteam">
+                <button type="submit">Отправить</button>
+                <input type="reset" value="Clear">
+            </div>
+              
+        </form>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(39, 136, 180);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.elements-list {
+    list-style: square;
+    /*list-style: circle;*/
+    /*list-style-position: inside;*/
+    list-style-position: outside; /* по умолчанию*/
+    list-style-image: url('icons8-fetch-rewards.svg');
+    list-style-position: inside;
+}
+
+/*.elements-list_item_alert{
+    color: black !important;
+}
+*/
+.elements-list_item {
+   /* padding-bottom: 20px;*/
+    margin-bottom: 10px;
+    font-size: 18px;
+    color:rgb(255, 0, 13);
+    opacity: 0.6;
+}
+
+/*.elements-list_item_alert{
+    color: black;
+}
+
+.elements-list_item:first-child{
+    color: rgb(255, 251, 0);
+}
+
+.elements-list_item:last-child{
+    color: rgb(255, 251, 0);
+}
+
+.elements-list_item:nth-child(3){
+    color:rgb(251, 255, 0)
+}*/
+
+.elements-list_link{
+    text-decoration: none;
+    color: darkred;
+    /*cursor: pointer; - по умолчанию*/
+    transition: all .3s ease-in-out;/*время изменения цвета*/
+}
+
+.elements-list_link:hover{/*изминение цвета при наведении мышки*/
+    color:gold;
+}
+
+.elements-list_link:active{/*при нажатии кнопки мыши*/
+    border: 2px dashed red;
+}
+
+.elements-list_item:nth-child(2n){
+    background-color: brown;
+
+}
+.elements-list_item:nth-child(2n+1){
+    background-color: rgb(43, 255, 0);
+    text-decoration: line-through;
+    list-style-type: none;
+
+}
+.elements-list_link:focus{/*полезно при отсутствии мышки для ориентации по сайту*/
+    border: 2px solid rgb(0, 255, 21);
+}
+
+.elements-list_item::after{
+    content: 'x';
+    padding-left: 10px;
+}
+
+.elements-list_item::before{
+    content: 'x';
+    padding-left: 10px;
+}

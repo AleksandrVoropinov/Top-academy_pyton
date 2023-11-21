@@ -1,0 +1,12 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+bild/
+dist/
+__paycache__/
+target/
+.env
+.venv
+env/
+venv/
+ENV/

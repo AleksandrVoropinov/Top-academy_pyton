@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheese store</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__container">
+            <a href="#">
+                <img class="header__logo" scr="D:\Phyton web-сайт\img\cheese123.svg" alt="logo">
+            </a>
+        <div class="header__right">
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-iteam">
+                        <a href="#about-us" class="header__nav-link">О нас</a>
+                    </li>
+                    <li class="header__nav-iteam">
+                        <a href="#" class="header__nav-link">История</a>
+                    </li>
+                    <li class="header__nav-iteam">
+                        <a href="#" class="header__nav-link">Галерея</a>
+                    </li>
+                    <li class="header__nav-iteam">
+                        <a href="#" class="header__nav-link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="header__search-btn"></button>
+        </div>
+        </div>
+        <footer class="footer">
+            <div class="footer__left">
+                <a href="#">
+                    <img class="header__logo" scr="img\cheese.png" alt="logo">
+                </a>
+                <p class="footer__left_text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, beatae labore velit error architecto natus, eius veniam facilis ducimus voluptatem perspiciatis, laudantium mollitia quo illo! Aliquid voluptatum cumque assumenda iure.
+                </p>
+            </div>
+            <div class="footer__centre">
+                <h2 class="footer__centre_heading">Контакты</h2>
+                <ul class="footer__centre_list">
+                    <li class="footer__centre_list-iteam">
+                        <a href="+7(999)-122-23-70" class="footer__centre_link">+7(999)-122-23-70</a>
+                    </li>
+                    <li class="footer__centre_list-iteam">
+                        <a href="+7(999)-122-23-70" class="footer__centre_link">+7(999)-122-23-70</a>
+                    </li>
+                    <li class="footer__centre_list-iteam">
+                        <a href="mailto:cheese@mail.ru" class="footer__centre_link">cheese@mail.ru</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__right">
+                <form method="get" class="footer__form">
+                    <input type="email" placeholder="Email" required="true">
+                    <div>
+                        <input type="checkbox" id="confirm" required="true">
+                        <label for="confirm">Даю согласие на получение рассылок</label>
+                    </div>
+                    <button type="submit">Подписаться на рассылку</button>
+                </form>
+            </div>
+        </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true,
+    
+      autoplay: {
+        delay: 3000,
+      },
+    
+      // If we need pagination
+       pagination: {
+        el: '.swiper-pagination',
+      }, 
+    
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      }, 
+    
+      // And if we need scrollbar
+       scrollbar: {
+        el: '.swiper-scrollbar',
+      }, 
+    });
+    </script>
+    </body>
+    </header>

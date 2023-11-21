@@ -1,0 +1,33 @@
+.container{
+    width: 500px;
+    height: 250px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(120, 240, 224, 0.76);
+    text-align: left;
+    background-image: url("moon_flag.png");
+}
+.form_name-1{
+    width: 400px;
+    height: 25px;
+    font-size: larger;
+    background-color: rgb(255, 141, 35);
+    color: aliceblue;
+    padding: 10px 10px;
+}
+.form_name{
+    max-width: 400px;
+    padding: 20px;
+    font-size: smaller;
+}
+
+.form_name-2{
+    max-width: 400px;
+    padding: 20px;
+    font-size: smaller;
+}
+.form_input{
+    border: 1px solid rgba(0, 0, 0, 0.836);
+    background-color: rgba(149, 255, 250, 0.781);
+}

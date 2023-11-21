@@ -1,0 +1,13 @@
+Beautiful   than ugly.
+Explicit   than implicit.
+Simple   than complex.
+Complex   than complicated.
+Flat   than nested.
+Sparse   than dense.
+Readability counts.Beautiful   than ugly.
+Explicit   than implicit.
+Simple   than complex.
+Complex   than complicated.
+Flat   than nested.
+Sparse   than dense.
+Readability counts.

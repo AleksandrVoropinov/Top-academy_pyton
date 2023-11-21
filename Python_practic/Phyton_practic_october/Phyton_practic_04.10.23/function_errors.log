@@ -1,0 +1,7 @@
+concatenate | 2023-10-04 20:37:39.879641 | unsupported operand type(s) for +: 'int' and 'str'
+division | 2023-10-04 20:37:39.906117 | division by zero
+division | 2023-10-04 20:38:07.435757 | division by zero
+division | 2023-10-04 20:43:09.581759 | Second argument to a division or modulo operation was zero.
+division | <class 'datetime.datetime'> | Second argument to a division or modulo operation was zero.
+division | 2023-10-04 20:44:19.503944 | Second argument to a division or modulo operation was zero.
+division | 2023-10-04 21:03:57.024563 | Second argument to a division or modulo operation was zero.

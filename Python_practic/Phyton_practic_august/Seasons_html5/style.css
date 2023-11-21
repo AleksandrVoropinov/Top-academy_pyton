@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.elements-list_item1 {
+    list-style-image: url('');
+    color:blue;
+}
+
+
+.elements-list_item2{
+    list-style-image: url('i (1).webp');
+    color:rgb(59, 133, 10);
+}
+
+.elements-list_item3{
+    list-style-image: url('');
+    color:rgb(255, 240, 23);
+}
+
+.elements-list_item4{
+    list-style-image: url('i (3).webp');
+    color:rgb(175, 29, 29);
+}

@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(223, 223, 223);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.elements-list {
+    list-style: square;
+    list-style-image: url('unchecked_16.png');
+    list-style-position: inside;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.elements-list_item1{
+    list-style-image: url('checked_16.png');
+    background-color: rgb(113, 131, 134);
+    text-decoration: line-through;
+}
+.elements-list_item:nth-child(2n){
+    background-color: rgb(96, 145, 190);
+
+}
+.elements-list_item:nth-child(2n+1){
+    background-color: rgb(120, 225, 243);
+
+}
+
+.elements-list_item::after{
+    content: 'x';
+    padding-left: 12px;
+    color: rgb(161, 28, 28);
+}
+
+.elements-list_link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: all .3s ease-in-out;
+}
+
+.elements-list_link:hover{
+    background-color: rgb(113, 131, 134);
+
+}
+.elements-list_link:active{
+    
+    list-style-image: url('unchecked_16.png');
+}

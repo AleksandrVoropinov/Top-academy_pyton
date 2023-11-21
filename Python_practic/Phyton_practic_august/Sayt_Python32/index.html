@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheese store</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <a href="">
+                <img class="header__logo" alt="logo" src="img/logo.png">
+            </a>
+            <div class="header__right">
+                <nav class="header__nav">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item">
+                            <a class="header__nav-link" href="#about-us">О нас</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="history.html" class="header__nav-link">История</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">Галерея</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#" class="header__nav-link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="header__search-btn"></button>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="preview">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="img/slide_1.jpg" alt="slide 1" class="swiper__image">
+                    </div>
+                    <div class="swiper-slide">
+                        <h1 class="swiper__heading">Лучший Сыр в городе!</h1>
+                        <img src="img/slide_2.jpg" alt="slide 2" class="swiper__image">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/slide_3.jpg" alt="slide 3" class="swiper__image">
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+            </div>
+        </section>
+        <section class="about-us" id="about-us">
+            <div class="about-us__container">
+                <h1 class="about-us__heading">О нас</h1>
+                <p class="about-us__descr">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse temporibus nisi alias blanditiis rerum non, excepturi ullam. Ullam minima magnam excepturi? Neque labore nisi placeat, inventore nemo incidunt sapiente veniam.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus inventore vero cupiditate non itaque! Mollitia facere ipsam autem dolorum, nulla itaque error voluptate minus assumenda, repudiandae quam numquam ex saepe?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsum repellat quibusdam, eum porro repudiandae nisi sapiente quis eius ad consequatur quia quam, esse, iusto autem facilis facere voluptatem soluta!
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad quam eaque perferendis culpa sint minima atque accusantium, veniam suscipit maiores officia expedita magni, consequuntur nesciunt! Earum quae dolorem eos quibusdam.
+                </p>
+                <div class="about-us__bottom">
+                    <div class="about-us__bottom-left">
+                        <div class="about-us__bottom-left_alert">
+                            <p class="about-us__bottom-left_descr">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum, sed quia? Cupiditate, aspernatur maiores quisquam expedita natus facilis aut ea porro cum fuga nemo architecto officia? Laudantium laborum pariatur maxime.
+                            </p>
+                            <button class="about-us__bottom-left_btn">Заказать</button>
+                        </div>
+                    </div>
+                    <div class="about-us__bottom-right">
+                        <div class="about-us__bottom-rigth_top">
+                            <img class="about-us__bottom-rigth-img" alt="picture" src="img/sun.svg">
+                            <p class="about-us__bottom-rigth-descr">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis dolor accusantium libero tenetur corrupti aliquam laboriosam incidunt ipsa! Ea error eum quae quisquam similique laboriosam alias nobis dolorum facere saepe?
+                            </p>
+                        </div>
+                        <div class="about-us__bottom-rigth_bottom">
+                            <img class="about-us__bottom-rigth-img" alt="picture" src="img/sun.svg">
+                            <p class="about-us__bottom-rigth-descr">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis dolor accusantium libero tenetur corrupti aliquam laboriosam incidunt ipsa! Ea error eum quae quisquam similique laboriosam alias nobis dolorum facere saepe?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__left">
+            <a href="#">
+                <img class="header__logo" alt="logo" src="img/logo.png">
+            </a>
+            <p class="footer__left_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, perferendis! Ex nesciunt autem commodi, harum rerum, fuga eaque optio neque cum, at exercitationem dolores quia aliquid deserunt laborum eveniet aliquam.</p>
+        </div>
+        <div class="footer__center">
+            <h2 class="footer__center_heading">Контакты</h2>
+            <ul class="footer__center_list">
+                <li class="footer__center_list-item">
+                    <a href="tel:+7(999)-122-23-70" class="footer__center_link">+7(999)-122-23-70</a>
+                </li>
+                <li class="footer__center_list-item">
+                    <a href="tel:+7(999)-122-23-70" class="footer__center_link">+7(999)-122-23-70</a>
+                </li>
+                <li class="footer__center_list-item">
+                    <a href="mailto:cheese@mail.ru" class="footer__center_link">cheese@mail.ru</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__right">
+            <form method="get" class="footer__form">
+                <input type="email" placeholder="Email:" required="'true">
+                <div>
+                    <input type="checkbox" id="confirm" required="true">
+                    <label for="confirm">Даю согласие на получение рассылок.</label>
+                </div>
+                <button type="submit">Подписаться на рассылку</button>
+            </form>
+        </div>
+    </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+
+        autoplay: {
+            delay: 3000,
+        },
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+    });
+</script>
+</body>
+</html>
