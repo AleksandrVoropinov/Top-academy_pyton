@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Black">
+    <option name="executionMode" value="BINARY" />
+    <option name="pathToExecutable" value="C:\Users\vorop\AppData\Local\Programs\Python\Python310\Scripts\black.exe" />
+    <option name="sdkUUID" value="ed17f481-73cd-4452-b2d3-42d2eb9259f8" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (4)" project-jdk-type="Python SDK" />
+</project>

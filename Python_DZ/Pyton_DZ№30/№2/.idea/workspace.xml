@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ba5a0d3-f05d-40ef-9582-e377e1271339" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../№1/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../№1/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../№1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../№1/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../№1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../№1/.idea/№1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../№1/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Python_practic/Phyton_practic_november/Pyton_practic_20.11.23/.idea/Pyton_practic_20.11.23.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python_lessons/SC_HTML_urok_01_1519902840.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python_lessons/SC_HTML_urok_02_1519902926.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Python_lessons/SC_HTML_urok_03_1519903033.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,21 +14,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2YUycYAtUVhp6OzJaFctQlHrju4" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="№2" />
