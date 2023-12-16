@@ -1,0 +1,17 @@
+--Задание 1
+--SELECT "StudentName" FROM "stdentsgrades" WHERE 'AverageGrade' BETWEEN 3 AND 4.5;
+--SELECT * FROM "stdentsgrades" WHERE "StudentName" = 'Ivan Ivanov';
+--SELECT *FROM "stdentsgrades" WHERE "BithDay" < '2003-12-04';
+--SELECT *FROM "stdentsgrades" WHERE "BithDay" BETWEEN '1995-12-04' AND '2003-01-01'
+--SELECT "PhoneNumber" FROM "stdentsgrades" WHERE "PhoneNumber" LIKE '%222%'
+--SELECT "emailaddres" FROM "stdentsgrades" WHERE "emailaddres" LIKE '%g%'
+
+--Задание 2
+--SELECT MIN("AverageGrade") FROM "stdentsgrades"
+--SELECT MAX("AverageGrade") FROM "stdentsgrades"
+--SELECT "City", COUNT(*) AS "StudentName" FROM "stdentsgrades" GROUP BY "City"
+--SELECT "Country", COUNT(*) AS "StudentName" FROM "stdentsgrades" GROUP BY "Country"
+--SELECT COUNT(*) FROM "stdentsgrades" WHERE "SubjectWithMinGrade"='Match'
+--SELECT COUNT(*) FROM "stdentsgrades" WHERE "SubjectWithMaxGrade"='Match'
+--SELECT "groupname", COUNT(*) AS "StudentName" FROM "stdentsgrades" GROUP BY "groupname"
+--SELECT AVG(2) AS "AverageGrade" FROM "AverageGrade" WHERE "groupname" = 'SB-09'
