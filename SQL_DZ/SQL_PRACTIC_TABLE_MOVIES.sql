@@ -1,0 +1,61 @@
+--CREATE TABLE IF NOT EXISTS MOVIES
+--(
+--  ID SERIAL,
+--  TITLE VARCHAR(255),
+--  RELEASE_YEAR INTEGER,
+--  GENRE VARCHAR(255),
+--  DIRECTOR VARCHAR(255),
+--  RATING DECIMAL(3, 1),
+--  PRIMARY KEY(ID)	
+--);
+
+--INSERT INTO MOVIES (TITLE, RELEASE_YEAR, GENRE, DIRECTOR, RATING) 
+--VALUES 
+--('Фильм 1', 2005, 'Драма', 'Режиссер 1', 7.5),
+--('Фильм 2', 2012, 'Комедия', 'Режиссер 2', 8.2),
+--('Фильм 3', 2014, 'Ужасы', 'Режиссер 3', 9.1),
+--('Фильм 4', 2008, 'Боевик', 'Режиссер 4', 8.8),
+--('Фильм 5', 2016, 'Фантастика', 'Режиссер 5', 7.9),
+--('Фильм 6', 2010, 'Триллер', 'Режиссер 6', 8.5);
+
+-- Запрос a: Выбор всех фильмов с рейтингом выше 8.0
+--SELECT * FROM movies WHERE rating > 8.0;
+-- Запрос b: Выбор фильмов, выпущенных после 2010 года, отсортированных по году выпуска в порядке возрастания
+--SELECT * FROM movies WHERE release_year > 2010 ORDER BY release_year ASC;
+-- Запрос c: Обновление рейтинга для определенного фильма по его идентификатору
+--UPDATE movies SET rating = 9.5 WHERE id = 3;
+-- Запрос d: Удаление всех фильмов определенного жанра
+--DELETE FROM movies WHERE genre = 'Триллер';
+-- Запрос e: Вычисление среднего рейтинга всех фильмов
+--SELECT AVG(rating) FROM movies;
+
+--CREATE TABLE Orders (
+--    order_id INT PRIMARY KEY,
+--    customer_id INT,
+--    order_date DATE,
+--    total_amount DECIMAL(10, 2)
+--);
+
+--INSERT INTO Orders VALUES
+--    (1, 101, '2023-01-15', 50.00),
+--    (2, 102, '2023-01-20', 100.00),
+--    (3, 103, '2023-02-10', 75.50),
+--    (4, 102, '2023-02-15', 60.00),
+--    (5, 101, '2023-03-05', 200.00),
+--    (6, 103, '2023-03-10', 150.00);
+
+--создайте View "MonthlySales", который будет отображать общую сумму продаж за каждый месяц.
+--1 Вариант:
+--CREATE VIEW MonthlySales AS
+--  SELECT
+--      EXTRACT(YEAR FROM ORDER_DATE) AS YEAR,
+--	  EXTRACT(MONTH FROM ORDER_DATE) AS MONTH,
+--	  SUM(TOTAL_AMOUNT) AS TOTAL_SALES
+--  FROM ORDERS
+--  GROUP BY YEAR, MONTH;
+--2 Вариант:
+--SELECT * FROM MonthlySales; 
+--CREATE VIEW MonthlySales AS
+--SELECT DATE_TRUNC('month', order_date) AS month, SUM(total_amount) AS total_sales
+--FROM orders
+--GROUP BY month;
