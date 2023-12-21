@@ -16,9 +16,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+<<<<<<< HEAD
 from myapp.views import multiplication_table
 
 urlpatterns = [
     path("admin/", admin.site.urls),
     path('multiplication_table/', multiplication_table, name='multiplication_table'),
+=======
+
+urlpatterns = [
+    path("admin/", admin.site.urls),
+>>>>>>> origin/main
 ]

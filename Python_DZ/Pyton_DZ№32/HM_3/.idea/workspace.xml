@@ -4,41 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca4df06f-5c70-4c55-b922-08f5de8202e0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/Pyton_DZ№32.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/HM_3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HM_3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/myapp/templates/current_datetime.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/myapp/templates/current_datetime.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM_4/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HM_4/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM_4/myproject/myapp/templates/multiplication_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HM_4/myproject/myapp/templates/multiplication_table.html" afterDir="false" />
+    <list default="true" id="ca4df06f-5c70-4c55-b922-08f5de8202e0" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/Pyton_DZ№32.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myproject/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myproject/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myproject/myapp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myproject/myapp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myproject/myapp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myproject/myapp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myproject/myapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myproject/myapp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myproject/myapp/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myproject/myproject/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myproject/myproject/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myproject/myproject/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myproject/myproject/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myproject/myproject/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HM_4/myproject/myapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HM_4/myproject/myapp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HM_4/myproject/myproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HM_4/myproject/myproject/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HM_4/myproject/myproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HM_4/myproject/myproject/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HM_5/myproject/myapp/templates/programmer_day.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HM_5/myproject/myapp/templates/programmer_day.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HM_5/myproject/myapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HM_5/myproject/myapp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HM_5/myproject/myproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HM_5/myproject/myproject/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HM_5/myproject/myproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HM_5/myproject/myproject/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myproject/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myproject/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myproject/myapp/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myproject/myapp/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myproject/myapp/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myproject/myapp/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myproject/myapp/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myproject/myapp/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myproject/myapp/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myproject/myproject/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myproject/myproject/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myproject/myproject/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myproject/myproject/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myproject/myproject/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SQL/SQL BASE.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,15 +58,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/vorop/OneDrive/Рабочий стол/Саша/Учеба/Phyton/Python_DZ/Pyton_DZ№32/HM_4"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Merging main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vorop/OneDrive/Рабочий стол/Саша/Учеба/Phyton/Python_DZ/Pyton_DZ№32/HM_4&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -82,6 +76,39 @@
       <option name="presentableId" value="Default" />
       <updated>1702057171574</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1702739656716</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702739656716</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1702739663702</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702739663702</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>

@@ -1,5 +1,6 @@
 from django.shortcuts import render
 
+<<<<<<< HEAD
 def multiplication_table(request):
     table = []
     for i in range(1, 11):
@@ -9,4 +10,6 @@ def multiplication_table(request):
         table.append(row)
     return render(request, 'multiplication_table.html', {'table': table})
 
+=======
+>>>>>>> origin/main
 # Create your views here.
