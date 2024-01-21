@@ -1,0 +1,60 @@
+import psycopg2
+
+
+def input_name():
+    conn = psycopg2.connect(
+        dbname="students", host="localhost", user="postgres", password="1", port="5432"
+    )
+    cursor = conn.cursor()
+
+    first_name = input("Введите имя: ")
+    last_name = input("Введите фамилию: ")
+
+    cursor.execute(
+        f'''INSERT INTO students(firstname, lastname) VALUES ('{first_name}', '{last_name}');''')
+    conn.commit()
+    print("Студент добавлен!\n")
+
+    cursor.close()
+    conn.close()
+
+
+def grade_task():
+    conn = psycopg2.connect(
+        dbname="students", host="localhost", user="postgres", password="1", port="5432"
+    )
+    cursor = conn.cursor()
+
+    id = int(input("Введите id студента: "))
+    subject = input("Введите предмет: ")
+    grade = int(input("Введите оценку по предмету: "))
+
+    cursor.execute(
+        f'''INSERT INTO grades(studentid, subject, grade) VALUES ({id}, '{subject}', {grade});''')
+    conn.commit()
+    print("Оценка добавлена!\n")
+
+    conn.close()
+    cursor.close()
+
+
+def menu():
+    print(
+        "1 - Ввести имя и фамилию студента\n"
+        "2 - Поставить оценку студенту по его айди\n"
+        "3 - Закончить работу приложения"
+    )
+
+
+if __name__ == "__main__":
+    while True:
+        menu()
+        choice = input("Введите ваш выбор: ")
+        print()
+        match choice:
+            case "1":
+                input_name()
+            case "2":
+                grade_task()
+            case "3":
+                break

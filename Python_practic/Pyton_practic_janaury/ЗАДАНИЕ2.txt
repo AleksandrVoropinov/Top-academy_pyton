@@ -1,0 +1,20 @@
+С помощью библиотеки psycopg2 создать консольное приложение "Журнал оценок", где даётся выбор: 1 - ввести имя и фамилию студента 2 - поставить оценку студенту по его айди 3 - закончить работу приложения
+
+
+(БАЗА ДАННЫХ)
+
+-- Создание таблицы "Студенты"
+CREATE TABLE Students (
+    ID serial PRIMARY KEY,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50)
+);
+
+-- Создание таблицы "Оценки"
+CREATE TABLE Grades (
+    ID serial PRIMARY KEY,
+    StudentID INT,
+    Subject VARCHAR(50),
+    Grade INT,
+    FOREIGN KEY (StudentID) REFERENCES Students(ID)
+);
