@@ -1,0 +1,16 @@
+body{
+    background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-03/1614857806_60-p-kulinarnii-fon-86.jpg");
+    background-size: contain;
+}
+.card-body{
+    background-color: yellowgreen;
+}
+
+.container h1{
+    color: lightyellow;
+}
+
+.img{
+    width: 30px;
+    float: left;
+}
